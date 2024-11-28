@@ -1,8 +1,10 @@
 nav{
-    background-color: rgb(0, 122, 252);
+    background-color: rgb(14, 213, 0);
     overflow: hidden;
     position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .navbar a {
@@ -16,12 +18,12 @@ nav{
   
   /* Change the color of links on hover */
   .navbar a:hover {
-    background-color: #0055ff;
+    background-color: #007d00;
     color: black;
   }
   
   /* Add a color to the active/current link */
   .navbar a.active {
-    background-color: #1e00ff;
+    background-color: #004a06;
     color: white;
   }
