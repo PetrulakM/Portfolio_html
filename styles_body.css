@@ -3,6 +3,7 @@ body{
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    height: 200vh;
 }
 
 .content{
@@ -15,7 +16,7 @@ body{
 
 footer{
     color: rgb(0, 0, 0);
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 45%;
     background-color: rgb(0, 255, 115);
@@ -28,10 +29,19 @@ footer{
  }
 
  .RightColumn{
-    position: fixed; 
+    position: absolute; 
     margin-left: 50%;
  }
 
  .profesionalni{
     font-size: 20px;
+ }
+
+ .section{
+    height: 10000vh;
+    background-color: rgb(198, 198, 198);
+ }
+
+ html{
+    scroll-behavior: smooth;
  }
