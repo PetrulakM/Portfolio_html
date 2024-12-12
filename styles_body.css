@@ -31,6 +31,7 @@ footer{
  .RightColumn{
     position: absolute; 
     margin-left: 50%;
+    width: 50%;   
  }
 
  .profesionalni{
@@ -45,3 +46,33 @@ footer{
  html{
     scroll-behavior: smooth;
  }
+
+ .text1{
+   font-family: "Sentient-Bold";
+ }
+
+ .LeftColumn{
+   display: flex;
+   flex-direction: row;
+ }
+
+ .PLeftColumn{
+   display: flex;
+   flex-direction: row;
+ }
+
+ .PRightColumn{
+   position: absolute; 
+   margin-left: 50%;
+   width: 50%;  
+   overflow: hidden;
+   display: flex;
+   flex-direction: row;
+}
+
+.Project_Text{
+   display: flex;
+   flex-direction: row;
+   width: 50%;
+   overflow: hidden;
+}

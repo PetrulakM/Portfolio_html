@@ -26,4 +26,5 @@ nav{
   .navbar a.active {
     background-color: #004a06;
     color: white;
+    font-family: "Sentient-Bold" ;
   }
