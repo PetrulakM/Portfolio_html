@@ -76,3 +76,45 @@ footer{
    width: 50%;
    overflow: hidden;
 }
+ 
+@media (width <= 1250px) {
+   footer{
+      color: rgb(0, 0, 0);
+      position: fixed;
+      bottom: 0;
+      right: 45%;
+      background-color: rgb(255, 0, 0);
+      text-align: center;
+      width: 100%;
+      left: 0;
+  }
+}
+
+@media (width <= 564px),(width >= 850) {
+   footer{
+      color: rgb(255, 255, 255);
+      position: fixed;
+      bottom: 0;
+      right: 45%;
+      background-color: rgb(64, 0, 255);
+      text-align: center;
+      width: 100%;
+      left: 0;
+  }
+  .text1{
+   font-family: "Sentient-Bold";
+   color: aqua;
+   }
+   .content{
+      display: flex;
+      flex-direction: column;
+  }
+  .LeftColumn{
+   display: flex;
+   flex-direction: column;
+   }
+   .PRightColumn{ 
+      display: flex;
+      flex-direction: column;
+   }
+}
