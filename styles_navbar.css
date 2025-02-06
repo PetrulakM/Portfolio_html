@@ -5,15 +5,16 @@ nav{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .navbar a {
     float: left;
-    color: #f2f2f2;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 90%;
   }
   
   /* Change the color of links on hover */
